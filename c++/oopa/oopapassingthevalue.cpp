@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class car{
+    public:
+    string name;
+    int price;
+    int seats;
+    
+};
+void printf(car c){
+    cout<<c.name<<"\n"<<c.price<<"\n"<<c.seats<<"\n\n";
+}
+int main(){
+    car c1;
+    c1.name=("tata");
+    c1.price=1200000;
+    c1.seats=5;
+
+    car c2;
+    c2.name=("kia");
+    c2.price=1600000;
+    c2.seats=5;
+    
+printf(c1);
+printf(c2);
+}
